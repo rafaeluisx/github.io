@@ -1,0 +1,1 @@
+alert('Seja bem vindo-a, não repare a bagunça... Como podes ver, estamos em obras');
