@@ -22,9 +22,12 @@
       <div class="profile-info">
         <h1>Dra. Noelí de Macedo</h1>
         <p>Uma frase muito bacana aqui</p>
-        &nbsp;
+        <br />
         <h3>
-          Sobre mim | Imagens | Seriços | Avaliações | Localização | Contato
+          <a href="#about">Sobre mim</a> | <a href="#image">Imagens</a> |
+          <a href="#services">Serviços</a> | <a href="#reviews">Avaliações</a> |
+          <a href="#map">Localização</a> |
+          <a href="#contact">Contato</a>
         </h3>
       </div>
     </header>
@@ -33,15 +36,15 @@
       <div class="container">
         <h2>Sobre Mim</h2>
         <p>
-          Qualquer texto que você queira colocar aqui, formação, históia... Você
-          é quem manda, tia!
+          Qualquer texto que você queira colocar aqui, formação, história...
+          Você é quem manda, tia!
         </p>
 
         <p>texto texto texto.</p>
       </div>
     </section>
 
-    <section class="image-section">
+    <section class="image-section" id="image">
       <div class="image-grid">
         <div class="image-item">
           <img src="images/mogi.jpg" alt="Imagem 1" />
@@ -117,7 +120,7 @@
       </div>
     </section>
 
-    <section class="map-section">
+    <section class="map-section" id="map">
       <div class="map-container">
         <h2>Venha nos visitar!</h2>
         <iframe
@@ -125,14 +128,14 @@
           width="100%"
           height="450"
           style="border: 0"
-          allowfullscreen=""
+          allowfullscreen="true"
           loading="lazy"
         ></iframe>
       </div>
     </section>
 
     <footer>
-      <div class="container text-center">
+      <div class="container text-center" id="contact">
         <img src="images/favicon.png" alt="Logo da Dra. Noelí de Macedo" />
         <p>Dra. Noelí de Macedo</p>
         <div class="contact-icons">
@@ -155,7 +158,6 @@
         </p>
       </div>
     </footer>
-
     <script src="scripts/script.js"></script>
   </body>
 </html>
